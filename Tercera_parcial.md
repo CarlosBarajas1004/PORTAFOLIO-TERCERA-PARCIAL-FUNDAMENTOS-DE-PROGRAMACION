@@ -1,7 +1,7 @@
 # Barajas Cortes Carlos Alejandro, Facultad de Ingeniería Mecánica y Eléctrica, ICI 1°B
 ## Problemas resueltos en clase con diagramas de flujo de datos
 ### Ejercicio 1. USANDO 2 VECTORES CAPTURE EDAD Y SEMESTRE DE N ESTUDIANTES
-#### Analisis:
+#### Analisis: Se necesita un proceso en el que almacenemos un array de 100 para despues preguntar el numero de estudiantes e introducir el numero, para despues introducir un numero, y asi tener una condicion, para posteriormente empezar con un ciclo For y poder calcular la edad y que este dentro de el rango, y asi hacer lo mismo con el semestre para despues tener la impresiones de ambas cosas y dar fin.
 [![DIAGRAMA-1.jpg](https://i.postimg.cc/YCVW6fTL/DIAGRAMA-1.jpg)](https://postimg.cc/0zYjxmk9)
 #### Prueba de escritorio
 corrida|valor i|VE|VS|i=n?|
@@ -18,7 +18,7 @@ corrida|valor i|VE|VS|i=n?|
 |18|7|
 |17|5|
 ### Ejercicio 2. USANDO MATRICES CAPTURE EDAD Y SEMESTRE DE N ESTUDUANTES
-#### Analisis:
+#### Analisis: rellenar una matriz y pedir el numero de el estudiante para que te lo introduzca que debe de estar dentro de el rango para despues tener un ciclo For y preguntar por la edad, y si la edad esta dentro de el rango se continua y si no se da un error despues tener un proceso M[i,0]= edad, para despues preguntar por el semestre y si esta dentro de el rango avanza para despues imprimir la matriz y dar fin.
 #### Diagrama de flujo
 [![DIAGRAMA-2.jpg](https://i.postimg.cc/d0SX48bf/DIAGRAMA-2.jpg)](https://postimg.cc/t1W2gVCd)
 |corrida|valor i|valor j|matriz|i=n?|
@@ -43,7 +43,7 @@ corrida|valor i|VE|VS|i=n?|
 |16|3|
 
 ### Ejercicio 3. RELLENAR UNA MATRIZ CUADRADA (NxN) CON UN NUMERO LEIDO DEL TECLADO
-#### Analisis:
+#### Analisis: se necesita una matriz de 50,50 para despues que ingresen el tamaño de la matriz y si es mayor a 2 y menor que 50 pasa y si no marcara fuera de rango despues decir que nos den el numero leido de el teclado y que nos den el numero y si es mayor que 0 y menor que 50 pasa y si no fuera de rango para despues tener 2 ciclos For uno que sea i=0;i<n;i++ y el otro j=0;j<n;j++ para despues tener un proceso que la matriz este dentro de i y j y asi el final.
 #### Diagrama de flujo
 [![DIAGRAMA-3.jpg](https://i.postimg.cc/LXLTLL2L/DIAGRAMA-3.jpg)](https://postimg.cc/xJjMSkk1)
 #### Prueba de escritorio
@@ -59,7 +59,7 @@ corrida|valor i|VE|VS|i=n?|
 |5|7|8|
 
 ### Ejercicio 4. RELLENAR UNA MATRIZ NxN CON NUMEROS CONSECUTIVOS
-#### Analisis:
+#### Analisis: se necesita una matriz de 50,50 para despues preguntar el tamaño de la matriz y si es mayor a 1 y menor o igual a 50 pasa si no fuera de rango para despues tener dos ciclos For i=0;i<n;i++ y el otro j=0;j<n;j++ y asi tener en la matriz que M[i,j] = C y despues tener que C = C+1 y que entre en un ciclo y haga lo mismo en el otro y asi dar la matriz con numeros.
 #### Diagrama de flujo
 [![DIAGRAMA-4.jpg](https://i.postimg.cc/d0MZdX1N/DIAGRAMA-4.jpg)](https://postimg.cc/0zfN1V77)
 #### Prueba de escritorio
@@ -75,7 +75,7 @@ corrida|valor i|VE|VS|i=n?|
 |7|8|9|
 
 ### Ejercicio 5. RELLENAR UNA MATRIZ DE NxN PERo QUE REPITA TODO EL RENGLON EL MISMO NUMERO
-#### Analisis:
+#### Analisis: se necesita una matriz de [100,100] para despues pedir el numero de la matriz si es mayor que 1 y menor que 99 pasa si no da fuera de rango para despues tener dos ciclos For i=0;i<n;i++ y el otro j=0;j<n;j++ y despues un proceso que sea M[i,j]=j+1 y despues que pase por los dos ciclos y dar fin.
 #### Diagrama de flujo
 [![DIAGRAMA-5.jpg](https://i.postimg.cc/nLkVzwQD/DIAGRAMA-5.jpg)](https://postimg.cc/R3WxpddS)
 #### Prueba de escritorio
@@ -96,7 +96,7 @@ corrida|valor i|VE|VS|i=n?|
 |0|2|0|0|
 |0|0|3|0|
 |0|0|0|4|
-#### Analisis:
+#### Analisis: se necesita una matriz de 100, 100 para despues pedir el tamaño de la matriz si la matriz es mayor que 1 y menor o igual que 100 entonces pasa y si no entonces se regresa, para despues tener dos ciclos For i=0;i<n;i++ y el otro j=0;j<n;j++ y despues decir que si j = i si es si entonces un proceso que diga que M[i,j] = i+1 y si es no M[i,j] =0 y pasan por los ciclos dando fin al diagrama
 #### Diagrama de flujo
 [![DIAGRAMA-6.jpg](https://i.postimg.cc/vBTym8sJ/DIAGRAMA-6.jpg)](https://postimg.cc/DW9HjTm6)
 #### Prueba de escritorio
@@ -131,7 +131,6 @@ corrida|valor i|VE|VS|i=n?|
 |-|-|-|                     
 |16|25|36|               
 |49|64|81| 
-#### Analisis: 
 #### Diagrama de flujo
 [![diagrama7.jpg](https://i.postimg.cc/prD5sJ6Y/diagrama7.jpg)](https://postimg.cc/q6v7Ry0z)
 #### Prueba de escritorio
@@ -159,7 +158,14 @@ corrida|valor i|VE|VS|i=n?|
 
 ### Ejercicio 8. EL 1B QUIERE CONOCER EL PROMEDIO POR PERSONA Y POR MATERIA, ADEMAS DE LA MATERIA CON MEJOR PROMEDIO GRUPAL Y AL ALUMNO CON MEJOR PROMEDIO, SON 7 MATERIAS
 Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
-#### Analisis:
+#### Analisis: 
+             alumnos
+             
+             
+            |1|2|3|4|5|6|7|
+            |-|-|-|-|-|-|-|
+            | | | | | | | |
+          
 #### Diagrama de flujo
 [![DIAGRAMA-10.jpg](https://i.postimg.cc/DynS2sNH/DIAGRAMA-10.jpg)](https://postimg.cc/w34q2tgQ)
 #### Prueba de escritorio
@@ -179,7 +185,6 @@ Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
 |7|9|8|7|
 
 ### Ejercicio 9. PREGUNTE LAS DIMENSIONES DE UNA MATRIZ EL RANGO ES [5,5], VALIDA QUE SEA CUADRADA Y OBTENGA LA SUMA DE LA DIAGONAL PREINCIPAL Y LA INVERSA. DETERMINE CUAL ES MAYOR, PREGUNTE LOS VALORES PARA LLENAR LA MATRIZ
-#### Analisis:
 #### Diagrama de flujo
 [![DIAGRAMA-9.jpg](https://i.postimg.cc/zXsPbzns/DIAGRAMA-9.jpg)](https://postimg.cc/crccPNkh)
 #### Prueba de escritorio
@@ -197,6 +202,10 @@ Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
 
 ### Ejercicio 10. ALMACENAR EN UN ARRAY LA SUMATORIA DE LOS NUMEROS DEL 1 HASTA N EN CADA POSICION DEL ARRAY, EJEMPLO SI N:3 (2,1) EL ARRAY DEBERA SER 1,3,6
 #### Analisis: 
+|1|
+|-|
+|3|
+|6|
 #### Diagrama de flujo
 [![DIAGRAMA-8.jpg](https://i.postimg.cc/vmQhfcDN/DIAGRAMA-8.jpg)](https://postimg.cc/xX4LSjvv)
 #### Prueba de escritorio
@@ -212,7 +221,6 @@ Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
 |6|
 
 ### Ejercicio 11. DADA UNA MATRIZ DE NxM ALMACENAR EN UN VECTOR LAS MAYORES
-#### Analisis:
 #### Diagrama de flujo
 [![DIAGRAMA-11.jpg](https://i.postimg.cc/SxQVznnt/DIAGRAMA-11.jpg)](https://postimg.cc/vcj5JHLW)
 #### Prueba de escritorio
