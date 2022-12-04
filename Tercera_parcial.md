@@ -1,7 +1,7 @@
 # Barajas Cortes Carlos Alejandro, Facultad de Ingeniería Mecánica y Eléctrica, ICI 1°B
 ## Problemas resueltos en clase con diagramas de flujo de datos
 ### Ejercicio 1. USANDO 2 VECTORES CAPTURE EDAD Y SEMESTRE DE N ESTUDIANTES
-#### Analisis: 
+
 [![DIAGRAMA-1.jpg](https://i.postimg.cc/YCVW6fTL/DIAGRAMA-1.jpg)](https://postimg.cc/0zYjxmk9)
 #### Prueba de escritorio
 corrida|valor i|VE|VS|i=n?|
